@@ -23,7 +23,9 @@ namespace ChatServer
 #else
                 var str = System.Text.Encoding.UTF8.GetString(buffer);
 #endif
+                Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine(str);
+                Console.ForegroundColor = ConsoleColor.White;
                 userlevelsend(ref buffer);
             };
 #endif

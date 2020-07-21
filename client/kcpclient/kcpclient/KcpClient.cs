@@ -31,7 +31,7 @@ namespace ConsoleApp2
                 var str = System.Text.Encoding.UTF8.GetString(buffer);
 #endif
                 Console.WriteLine(str);
-                userlevelsend(ref buffer);
+                //userlevelsend(ref buffer);
             };
 #endif
             kcphandle handle = new kcphandle();
